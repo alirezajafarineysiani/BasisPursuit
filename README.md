@@ -71,7 +71,7 @@ where
 $$
 \mathbf{B} =
 \begin{bmatrix}
- \mathbf{I}_{m \times m} & -\mathbf{I}_{m \times m}
+ \mathbf{I}& -\mathbf{I}
 \end{bmatrix} 
 $$
 
