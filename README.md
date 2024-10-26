@@ -7,14 +7,13 @@ A MATLAB-based code to solve the Basis Pursuit problem using linear programming.
 The objective is to minimize the following:
 
 $$ 
-\mathbf{x} =  \quad \subset{\mathbf{x}}{\textrm{minimize}} \quad \| \mathbf{x} \|_1  \newline \textrm{subject to:} \quad
+\mathbf{x} =  \quad \subset{\mathbf{x}}{\textrm{minimize}} \quad \| \mathbf{x} \|_1 \quad \textrm{subject to:} \quad
 \mathbf{A} \mathbf{x} = \mathbf{b} 
 $$
-
 where:
 - \(\mathbf{x}\) is the vector of coefficients,
-- \(A\) is the matrix representing the linear system,
-- \(b\) is the measurement vector.
+- \(\mathbf{A}\) is the matrix representing the linear system,
+- \(\mathbf{b}\) is the measurement vector.
 
 ## Usage
 
