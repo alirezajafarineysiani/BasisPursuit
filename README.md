@@ -5,12 +5,16 @@ A MATLAB-based code to solve the Basis Pursuit problem using linear programming.
 ## Problem Statement
 
 The objective is to minimize the following:
-$$ \mathbf{x} \quad \text{minimize} \quad \| \mathbf{x} \|_1 $$
+
+$$ 
+\mathbf{x} \quad \text{minimize} \quad \| \mathbf{x} \|_1 
+$$
+
 subject to:
 
-\[
-A \mathbf{x} = b
-\]
+$$ 
+A \mathbf{x} = b 
+$$
 
 where:
 - \(\mathbf{x}\) is the vector of coefficients,
@@ -31,7 +35,7 @@ The MATLAB function `BP(Aeq, beq, method)` implements the following formulation:
 
 1. Define the objective function:
 
-\[
+$$
 \mathbf{f} = \begin{bmatrix}
 1 \\
 1 \\
@@ -41,29 +45,29 @@ The MATLAB function `BP(Aeq, beq, method)` implements the following formulation:
 \vdots \\
 1
 \end{bmatrix}
-\]
+$$
 
 where the vector \(\mathbf{f}\) has a length of \(2m\).
 
 2. The equality constraints are constructed as:
 
-\[
+$$ 
 \begin{bmatrix}
 A_{eq} & -A_{eq}
-\end{bmatrix} \quad \text{and} \quad A \mathbf{x} = b
-\]
+\end{bmatrix} \quad \text{and} \quad A \mathbf{x} = b 
+$$
 
 3. The inequality constraints are represented by:
 
-\[
-\mathbf{x} \geq 0
-\]
+$$ 
+\mathbf{x} \geq 0 
+$$
 
 4. The estimated solution is given by:
 
-\[
-s_{\text{estim}} = A \mathbf{x}
-\]
+$$ 
+s_{\text{estim}} = A \mathbf{x} 
+$$
 
 where:
 - \(m\) is the number of variables,
