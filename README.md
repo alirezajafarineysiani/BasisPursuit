@@ -11,8 +11,8 @@ $$
 \mathbf{A} \mathbf{x} = \mathbf{b} 
 $$
 where:
-- $$\mathbf{x} \in \mathcal{R}^{m}$$ is the vector of coefficients,
-- $$\mathbf{A} \in \mathcal{R}^{n \times m} $$ is the matrix representing the linear system,
+- $$\mathbf{x} \in \mathcal{R}^{m}$$ is the sparse signal,
+- $$\mathbf{A} \in \mathcal{R}^{n \times m} $$ is the sensing matrix,
 - $$\mathbf{b} \in \mathcal{R}^{n} $$ is the measurement vector.
 
 ## Usage
