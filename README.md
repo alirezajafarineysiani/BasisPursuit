@@ -8,8 +8,8 @@ The objective is to minimize the following:
 
 $$ 
 \mathbf{x} \quad \text{minimize} \quad \| \mathbf{x} \|_1 
-\newline
-\textrm{subject to:}
+\\
+\textrm{subject to:} \quad
 A \mathbf{x} = b 
 $$
 
