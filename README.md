@@ -11,7 +11,7 @@ $$
 \mathbf{A} \mathbf{x} = \mathbf{b} 
 $$
 where:
-- \(\mathbf{x}\) is the vector of coefficients,
+- $$\mathbf{x}$$ is the vector of coefficients,
 - \(\mathbf{A}\) is the matrix representing the linear system,
 - \(\mathbf{b}\) is the measurement vector.
 
