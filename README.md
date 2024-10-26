@@ -41,7 +41,7 @@ $$
 \end{bmatrix}
 $$
 
-where the vector \(\mathbf{f}\) has a length of \(2m\).
+where the vector $$\mathbf{f}$$ has a length of $$2m$$.
 
 2. The equality constraints are constructed as:
 
