@@ -54,13 +54,13 @@ $$
 3. The inequality constraints are represented by:
 
 $$ 
-\mathbf{x} \geq 0 
+\mathbf{s} \geq 0 
 $$
 
 4. The estimated solution is given by:
 
 $$ 
-s_{\text{estim}} = A \mathbf{x} 
+\hat{\mathbf{x}} = A \mathbf{s} 
 $$
 
 where:
