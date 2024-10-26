@@ -42,10 +42,15 @@ where the vector $$\mathbf{f}$$ has a length of $$2m$$.
 2. The equality constraints are constructed as:
 
 $$ 
-\mathbf{A}_eq =
+\mathbf{A}_{eq} \mathbf{s} = \mathbf{b} 
+$$
+
+where 
+$$
+\mathbf{A}_{eq} \triangleq
 \begin{bmatrix}
  \mathbf{A} & -\mathbf{A}
-\end{bmatrix} \quad \text{and} \quad A \mathbf{x} = b 
+\end{bmatrix} 
 $$
 
 3. The inequality constraints are represented by:
