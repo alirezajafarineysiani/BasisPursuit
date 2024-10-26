@@ -47,7 +47,7 @@ $$
 
 where 
 $$
-\mathbf{A}_{eq} \triangleq
+\mathbf{A}_{eq} =
 \begin{bmatrix}
  \mathbf{A} & -\mathbf{A}
 \end{bmatrix} 
