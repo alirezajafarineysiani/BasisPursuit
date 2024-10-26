@@ -46,6 +46,7 @@ $$
 $$
 
 where 
+
 $$
 \mathbf{A}_{eq} =
 \begin{bmatrix}
