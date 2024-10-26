@@ -7,8 +7,7 @@ A MATLAB-based code to solve the Basis Pursuit problem using linear programming.
 The objective is to minimize the following:
 
 $$ 
-\mathbf{x} =  \quad \subset{\mathbf{x}}{\textrm{minimize}} \quad \| \mathbf{x} \|_1 \quad \textrm{subject to:} \quad
-\mathbf{A} \mathbf{x} = \mathbf{b} 
+\mathbf{x} =  \quad \subset{\mathbf{x}}{\textrm{minimize}} \quad \| \mathbf{x} \|_1 \quad \textrm{subject to:} \quad \mathbf{A} \mathbf{x} = \mathbf{b} 
 $$
 where:
 - $$\mathbf{x} \in \mathcal{R}^{m}$$ is the sparse signal,
