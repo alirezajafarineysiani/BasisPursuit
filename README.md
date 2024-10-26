@@ -67,6 +67,7 @@ $$
 $$
 
 where
+
 $$
 \mathbf{B} =
 \begin{bmatrix}
