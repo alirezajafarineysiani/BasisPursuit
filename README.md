@@ -64,7 +64,7 @@ $$
 $$
 
 where:
-- \(m\) is the number of variables,
-- \(\text{method}\) specifies the linear programming algorithm, which must be one of the following:
+- $$m$$ is the number of variables,
+- $$\text{method}$$ specifies the linear programming algorithm, which must be one of the following:
   - `'dual-simplex'` (default)
   - `'interior-point'`
