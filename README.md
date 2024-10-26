@@ -5,11 +5,7 @@ A MATLAB-based code to solve the Basis Pursuit problem using linear programming.
 ## Problem Statement
 
 The objective is to minimize the following:
-
-\[
-\mathbf{x} \quad \text{minimize} \quad \| \mathbf{x} \|_1
-\]
-
+$$ \mathbf{x} \quad \text{minimize} \quad \| \mathbf{x} \|_1 $$
 subject to:
 
 \[
