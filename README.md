@@ -63,7 +63,15 @@ $$
 4. The estimated solution is given by:
 
 $$ 
-\hat{\mathbf{x}} = A \mathbf{s} 
+\hat{\mathbf{x}} = \mathbf{B} \mathbf{s} 
+$$
+
+where
+$$
+\mathbf{B} =
+\begin{bmatrix}
+ \mathbf{I}_{m \times m} & -\mathbf{I}_{m \times m}
+\end{bmatrix} 
 $$
 
 where:
